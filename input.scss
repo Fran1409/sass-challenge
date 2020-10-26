@@ -1,3 +1,5 @@
+$padding: 16px;
+
 @mixin border-shadow($property) {
     -webkit-box-shadow: $property;
     -moz-box-shadow: $property;
@@ -13,7 +15,7 @@ article {
     flex-basis: 45%;
     border: 1px silver solid;
     @include border-shadow(10px 10px 19px -4px rgba(255, 255, 255, 0.75));
-    padding: 16px;
+    padding: $padding;
     margin: 16px;
     clear: both;
     overflow: auto;
@@ -35,7 +37,7 @@ article {
     margin-bottom: 1.6em;
     max-width: 100%;
     overflow: auto;
-    padding: 16px;
+    padding: $padding;
     display: block;
     white-space: pre-wrap;
   
@@ -49,4 +51,21 @@ article {
         width: 40%;
     }
   }
+}
+
+h1,
+h2,
+h6 {
+  color: #6b8eff;
+}
+
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-size: 2em;
+  padding: $padding *2;
+  margin-bottom: 0px;
 }
