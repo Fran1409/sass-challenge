@@ -1,6 +1,7 @@
 $padding: 16px;
-$text-color: #2748b3;
-$heading-color: #6b8eff;
+$text-color: #2748b3 !default;
+$heading-color: #6b8eff !default;
+$pre-color: #666 !default;
 
 
 @mixin border-shadow($property) {
@@ -56,7 +57,7 @@ article {
   pre {
     background: #000;
     border: 1px solid #ddd;
-    color: #666;
+    color: $pre-color;
     font-family: monospace;
     font-size: 15px;
     line-height: 1.6;
@@ -115,7 +116,7 @@ h6 {
 
 .error {
   @extend %message-shared;
-  background-color: red
+  background-color: rgb(247, 46, 46)
 }
 
 .warning {

@@ -1,8 +1,5 @@
-@import 'style';
+$text-color: red;
+$heading-color: red;
+$pre-color: red;
 
-body {
-    color: red;
-}
-h1, h2, h6 {
-    color: red;
-}
+@import 'style';
