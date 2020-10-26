@@ -1,4 +1,7 @@
 $padding: 16px;
+$text-color: #2748b3;
+$heading-color: #6b8eff;
+
 
 @mixin border-shadow($property) {
     -webkit-box-shadow: $property;
@@ -8,7 +11,7 @@ $padding: 16px;
 
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
+    color: $text-color;
     margin: 0px;
     padding: 0px;
     background-color: #000;
@@ -79,7 +82,7 @@ article {
 h1,
 h2,
 h6 {
-  color: #6b8eff;
+  color: $heading-color;
 }
 
 h1 {
@@ -97,7 +100,7 @@ h6 {
     border: 1px solid #ccc;
     padding: 16px;
     margin: 16px;
-    color: #2748b3;
+    color: $text-color;
     background-color: #000;
 }
 
