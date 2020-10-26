@@ -104,4 +104,19 @@ h6 {
 .warning {
   background-color: orange;
 }
+
+.links {
+  text-align: center;
+}
+
+.links a:link, .links a:visited {
+  background-color: #161414;
+  color: red;
+  padding: 10px 20px;
+  margin: 12px;
+}
+
+.links a:hover, .links a:active {
+  background-color: #292525;
+}
 /*# sourceMappingURL=red.css.map */
