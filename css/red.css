@@ -58,12 +58,12 @@ article pre {
   white-space: pre-wrap;
 }
 
-article pre .before {
+article pre.before {
   float: left;
   width: 40%;
 }
 
-article pre .after {
+article pre.after {
   float: right;
   width: 40%;
 }

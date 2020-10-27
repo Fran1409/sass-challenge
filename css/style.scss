@@ -47,12 +47,13 @@ article {
     clear: both;
     overflow: auto;
     box-sizing: border-box;
-  
-    #selling-points {
-        flex-grow: 2;
-        flex-basis: 100%;
-    }
   }
+  
+  section#selling-points {
+    flex-grow: 2;
+    flex-basis: 100%;
+    }
+
   
   pre {
     background: #000;
@@ -67,17 +68,18 @@ article {
     padding: $padding;
     display: block;
     white-space: pre-wrap;
-  
-    .before {
-        float: left;
-        width: 40%;
-    }
-  
-    .after {
-        float: right;
-        width: 40%;
-    }
   }
+  
+  pre.before {
+    float: left;
+    width: 40%;
+  }
+  
+  pre.after {
+    float: right;
+    width: 40%;
+  }
+  
 }
 
 h1,
